@@ -17,4 +17,4 @@ RUN apk add --no-cache \
 RUN pip3 install requests beautifulsoup4 google-api-python-client google-auth-httplib2 tabula-py
 VOLUME [ "/app/config.py" ]
 COPY . /app
-CMD [ "python", "main.py" ]
+CMD [ "python3", "main.py" ]
